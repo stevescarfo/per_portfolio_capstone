@@ -73,6 +73,7 @@ nav a {
     border: 1px solid #ddd;
     border-radius: 8px;
     background: #f9f9f9;
+    max-width:15%;
 }
 
 #projects img {
@@ -80,6 +81,10 @@ nav a {
     max-width: 150px;
     height: auto;
     border-radius: 8px;
+}
+
+#projects h3, p {
+   text-align: center;
 }
 
 /* Contact Section Styling */
