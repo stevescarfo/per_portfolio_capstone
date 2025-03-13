@@ -7,6 +7,7 @@ body, h1, h2, h3, p, ul, li, nav {
     box-sizing: border-box;
 }
 
+
 /* Header Styling */
 header {
     background-color: #333;
@@ -34,6 +35,13 @@ nav a {
 #about img {
     width: 150px;
     border-radius: 50%;
+}
+
+.abtme {
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Skills Section Styling */
