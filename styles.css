@@ -1,12 +1,15 @@
 /* Start of styles.css */
 
 /* CSS Reset */
-body, h1, h2, h3, p, ul, li, nav {
+body, h3, p, ul, li, nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+h1, h2 {
+    padding: 5px;
+}
 
 /* Header Styling */
 header {
@@ -52,6 +55,11 @@ nav a {
     padding: 2em;
 }
 
+.skill:hover {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 .skill {
     flex: 1;
     min-width: 150px;
@@ -82,7 +90,12 @@ nav a {
     max-width: 150px;
     height: auto;
     border-radius: 8px;
-    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects img:hover {
+    transform: scale(1.1);
 }
 
 #projects h3, p {
@@ -104,6 +117,10 @@ nav a {
     }
 
     .skill {
+        flex-basis: 100%;
+    }
+
+    .project {
         flex-basis: 100%;
     }
 }
